@@ -1,0 +1,20 @@
+base:
+
+  token : "1795231891:AAGextiIpoah33-gSbElvEvGmYpR1UIe0CU"
+  sticker_yes : 'CAACAgIAAxkBAANQYK3mIw9SgCTC1oJLYPKfmkQYkUcAApkEAALpVQUYvPlaiIjLtlgfBA'
+  sticker_no : 'CAACAgIAAxkBAANRYK3mJfZnTqNQeOqOcjUjB_chTZUAAqwEAALpVQUYNvZatkGHQPwfBA'
+
+  model_weights : 'model_mask.pickle'
+  img_size : 148
+  img_name : 'image.jpg'
+
+  DIR_TRAIN : "./masks/Train/"
+  DIR_VALID : "./masks/Validation/"
+  DIR_TEST : "./masks/Test/"
+  
+  batch_size : 16
+  epochs : 3
+
+  # number of neurons in a fully connected layer
+  lenear1: 2048
+  linear2 : 128
